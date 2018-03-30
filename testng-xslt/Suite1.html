@@ -1,0 +1,1580 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>Suite1</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">2</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">4</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">50%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">1m
+               10s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testant.TestingStart_testmain_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_testmain_byStatus_failed_FAIL1_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:01:25</td>
+               <td nowrap="true" align="right">21 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_testmain_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     Unable to get browser (WARNING: The server did not provide any stacktrace information)
+                     Command duration or timeout: 16 milliseconds
+                     Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                     System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.8.0_121'
+                     Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+                     Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false,
+                     ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11,
+                     platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=,
+                     requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:7158/, javascriptEnabled=true,
+                     ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+                     Session ID: 33baa30c-ef98-4fc9-9471-d77fbec840a8
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_testmain_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>21 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_testmain_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+                        Command duration or timeout: 16 milliseconds
+                        Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                        System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.8.0_121'
+                        Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+                        Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false,
+                        ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11,
+                        platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=,
+                        requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:7158/, javascriptEnabled=true,
+                        ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+                        Session ID: 33baa30c-ef98-4fc9-9471-d77fbec840a8
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
+                        	at testant.TestingStart.testmain(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testant.TestingStart3_open_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_open_byStatus_failed_FAIL2_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:37</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_open_byStatus_failed_FAIL2_exception')">org.openqa.selenium.WebDriverException: 
+                     Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output
+                     follows: 
+                     le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                     1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                     1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                     1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                     1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                     1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                     1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                     1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                     1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                     1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                     1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                     1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                     1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                     1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                     1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                     1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                     1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                     1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                     1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                     1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                     1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                     1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                     1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                     1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                     1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                     1491103900152	addons.manager	DEBUG	Completed startup sequence
+                     1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                     1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                     1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                     1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                     1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                     1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                     1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                     1491103903176	addons.repository	DEBUG	No addons.json found.
+                     1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                     1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                     1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                     1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                     1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                     1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                     1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                     1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                     
+                     Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                     System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.8.0_121'
+                     Driver info: driver.version: FirefoxDriver
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_open_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_open_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe)
+                        on port 7055; process output follows: 
+                        le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                        1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                        1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                        1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                        1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                        1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                        1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                        1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                        1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                        1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                        1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                        1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                        1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                        1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                        1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                        1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                        1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                        1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                        1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                        1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                        1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                        1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                        1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                        1491103900152	addons.manager	DEBUG	Completed startup sequence
+                        1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                        1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                        1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                        1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                        1491103903176	addons.repository	DEBUG	No addons.json found.
+                        1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                        1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                        1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                        1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                        1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                        
+                        Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                        System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.8.0_121'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+                        	at testant.TestingStart3.open(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000
+                        ms. Firefox console output:
+                        le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                        1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                        1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                        1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                        1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                        1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                        1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                        1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                        1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                        1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                        1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                        1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                        1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                        1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                        1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                        1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                        1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                        1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                        1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                        1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                        1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                        1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                        1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                        1491103900152	addons.manager	DEBUG	Completed startup sequence
+                        1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                        1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                        1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                        1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                        1491103903176	addons.repository	DEBUG	No addons.json found.
+                        1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                        1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                        1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                        1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                        1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                        
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+                        	... 32 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testant.TestingStart_open_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_open_byStatus_passed_PASS1_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:22</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_open_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:22
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart_close_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_close_byStatus_passed_PASS2_details')">close()</a>
+               </td>
+               <td nowrap="true">09:01:25</td>
+               <td nowrap="true" align="right">832 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_close_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>832 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart2_open_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_open_byStatus_passed_PASS3_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:26</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_open_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:26
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart2_testmain_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_testmain_byStatus_passed_PASS4_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:01:36</td>
+               <td nowrap="true" align="right">20 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_testmain_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>20 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart2_close_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_close_byStatus_passed_PASS5_details')">close()</a>
+               </td>
+               <td nowrap="true">09:01:36</td>
+               <td nowrap="true" align="right">773 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_close_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>773 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.FEBTWELVE_open_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_open_byStatus_passed_PASS6_details')">open()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">8s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_open_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>8s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.FEBTWELVE_testmain_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_testmain_byStatus_passed_PASS7_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:02:32</td>
+               <td nowrap="true" align="right">334 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_testmain_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>334 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.FEBTWELVE_close_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_close_byStatus_passed_PASS8_details')">close()</a>
+               </td>
+               <td nowrap="true">09:02:32</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_close_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart3_testmain_byStatus_skiped_SKIP1_row"
+                class="testMethodStatusSKIP">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_testmain_byStatus_skiped_SKIP1_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_testmain_byStatus_skiped_SKIP1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart3_close_byStatus_skiped_SKIP2_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_close_byStatus_skiped_SKIP2_details')">close()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_close_byStatus_skiped_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testant.FEBTWELVE</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testant.FEBTWELVE_open_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_open_byClass_PASS1_details')">open()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">8s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_open_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>8s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.FEBTWELVE_testmain_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_testmain_byClass_PASS2_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:02:32</td>
+               <td nowrap="true" align="right">334 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_testmain_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>334 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.FEBTWELVE_close_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.FEBTWELVE_close_byClass_PASS3_details')">close()</a>
+               </td>
+               <td nowrap="true">09:02:32</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.FEBTWELVE_close_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.FEBTWELVE@3bf400]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testant.TestingStart</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testant.TestingStart_open_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_open_byClass_PASS1_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:22</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_open_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:22
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart_testmain_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_testmain_byClass_FAIL2_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:01:25</td>
+               <td nowrap="true" align="right">21 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_testmain_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchWindowException: 
+                     Unable to get browser (WARNING: The server did not provide any stacktrace information)
+                     Command duration or timeout: 16 milliseconds
+                     Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                     System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.8.0_121'
+                     Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+                     Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false,
+                     ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11,
+                     platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=,
+                     requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:7158/, javascriptEnabled=true,
+                     ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+                     Session ID: 33baa30c-ef98-4fc9-9471-d77fbec840a8
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_testmain_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>21 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_testmain_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+                        Command duration or timeout: 16 milliseconds
+                        Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                        System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.8.0_121'
+                        Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+                        Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false,
+                        ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11,
+                        platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=,
+                        requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:7158/, javascriptEnabled=true,
+                        ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+                        Session ID: 33baa30c-ef98-4fc9-9471-d77fbec840a8
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                        	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:320)
+                        	at testant.TestingStart.testmain(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testant.TestingStart_close_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart_close_byClass_PASS3_details')">close()</a>
+               </td>
+               <td nowrap="true">09:01:25</td>
+               <td nowrap="true" align="right">832 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart_close_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart@1e0a01f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:25
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:26
+                     </div>
+                     <div>
+                        <b>Duration: </b>832 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testant.TestingStart2</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testant.TestingStart2_open_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_open_byClass_PASS1_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:26</td>
+               <td nowrap="true" align="right">10s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_open_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:26
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>10s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart2_testmain_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_testmain_byClass_PASS2_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:01:36</td>
+               <td nowrap="true" align="right">20 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_testmain_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>20 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart2_close_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart2_close_byClass_PASS3_details')">close()</a>
+               </td>
+               <td nowrap="true">09:01:36</td>
+               <td nowrap="true" align="right">773 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart2_close_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart2@4aed64]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:36
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>773 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testant.TestingStart3</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testant.TestingStart3_open_byClass_FAIL1_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_open_byClass_FAIL1_details')">open()</a>
+               </td>
+               <td nowrap="true">09:01:37</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_open_byClass_FAIL1_exception')">org.openqa.selenium.WebDriverException: 
+                     Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output
+                     follows: 
+                     le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                     1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                     1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                     1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                     1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                     1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                     1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                     1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                     1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                     1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                     1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                     1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                     1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                     1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                     1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                     1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                     1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                     1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                     1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                     1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                     1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                     1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                     1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                     1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                     1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                     1491103900152	addons.manager	DEBUG	Completed startup sequence
+                     1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                     1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                     1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                     1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                     1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                     1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                     1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                     1491103903176	addons.repository	DEBUG	No addons.json found.
+                     1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                     1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                     1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                     1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                     1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                     1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                     1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                     1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                     
+                     Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                     System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.8.0_121'
+                     Driver info: driver.version: FirefoxDriver
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_open_byClass_FAIL1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>open
+                     </div>
+                     <div>
+                        <b>Signature: </b>open()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>End time: </b>09:01:37
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_open_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe)
+                        on port 7055; process output follows: 
+                        le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                        1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                        1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                        1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                        1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                        1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                        1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                        1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                        1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                        1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                        1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                        1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                        1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                        1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                        1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                        1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                        1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                        1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                        1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                        1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                        1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                        1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                        1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                        1491103900152	addons.manager	DEBUG	Completed startup sequence
+                        1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                        1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                        1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                        1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                        1491103903176	addons.repository	DEBUG	No addons.json found.
+                        1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                        1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                        1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                        1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                        1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                        
+                        Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+                        System info: host: 'HOME-PC', ip: '192.168.43.229', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.8.0_121'
+                        Driver info: driver.version: FirefoxDriver
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+                        	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+                        	at testant.TestingStart3.open(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+                        	at java.lang.reflect.Method.invoke(Method.java:498)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000
+                        ms. Firefox console output:
+                        le":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1490336802251,"updateDate":1490336802251,"applyBackgroundUpdates":1,"skinnable":true,"size":19587,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0.1","maxVersion":"52.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+                        1491103900122	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+                        1491103900123	DeferredSave.extensions.json	DEBUG	Save changes
+                        1491103900123	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+                        1491103900123	addons.xpi-utils	DEBUG	Updating add-on states
+                        1491103900124	addons.xpi-utils	DEBUG	Writing add-ons list
+                        1491103900126	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+                        1491103900127	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+                        1491103900129	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+                        1491103900130	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.9
+                        1491103900131	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+                        1491103900132	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+                        1491103900133	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+                        1491103900134	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+                        1491103900138	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+                        1491103900138	addons.manager	DEBUG	Provider finished startup: XPIProvider
+                        1491103900139	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+                        1491103900139	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+                        1491103900140	addons.manager	DEBUG	Starting provider: GMPProvider
+                        1491103900149	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+                        1491103900149	addons.manager	DEBUG	Provider finished startup: GMPProvider
+                        1491103900150	addons.manager	DEBUG	Starting provider: PluginProvider
+                        1491103900151	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+                        1491103900151	addons.manager	DEBUG	Provider finished startup: PluginProvider
+                        1491103900152	addons.manager	DEBUG	Completed startup sequence
+                        1491103902889	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+                        1491103902890	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+                        1491103902891	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903146	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+                        1491103903146	DeferredSave.extensions.json	DEBUG	Starting timer
+                        1491103903168	DeferredSave.extensions.json	DEBUG	Starting write
+                        1491103903176	addons.repository	DEBUG	No addons.json found.
+                        1491103903177	DeferredSave.addons.json	DEBUG	Save changes
+                        1491103903180	DeferredSave.addons.json	DEBUG	Starting timer
+                        1491103903206	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+                        1491103903206	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+                        1491103903217	DeferredSave.extensions.json	DEBUG	Write succeeded
+                        1491103903239	DeferredSave.addons.json	DEBUG	Starting write
+                        1491103903251	DeferredSave.addons.json	DEBUG	Write succeeded
+                        
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+                        	... 32 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testant.TestingStart3_testmain_byClass_SKIP2_row"
+                class="testMethodStatusSKIP">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_testmain_byClass_SKIP2_details')">testmain()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_testmain_byClass_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testmain
+                     </div>
+                     <div>
+                        <b>Signature: </b>testmain()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testant.TestingStart3_close_byClass_SKIP3_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testant.TestingStart3_close_byClass_SKIP3_details')">close()</a>
+               </td>
+               <td nowrap="true">09:02:23</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testant.TestingStart3_close_byClass_SKIP3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>close
+                     </div>
+                     <div>
+                        <b>Signature: </b>close()[pri:0, instance:testant.TestingStart3@1412c2f]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>End time: </b>09:02:23
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

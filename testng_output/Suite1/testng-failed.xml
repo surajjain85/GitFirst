@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="testant(failed)">
+    <classes>
+      <class name="testant.FEBTWELVE">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.FEBTWELVE -->
+      <class name="testant.TestingStart3">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- testant.TestingStart3 -->
+      <class name="testant.TestingStart">
+        <methods>
+          <include name="open"/>
+          <include name="testmain"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.TestingStart -->
+      <class name="testant.TestingStart2">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.TestingStart2 -->
+    </classes>
+  </test> <!-- testant(failed) -->
+  <test name="testproj3(failed)">
+    <classes>
+      <class name="testant.FEBTWELVE">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.FEBTWELVE -->
+      <class name="testant.TestingStart3">
+        <methods>
+          <include name="testmain"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- testant.TestingStart3 -->
+      <class name="testant.TestingStart2">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.TestingStart2 -->
+      <class name="testant.TestingStart">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testant.TestingStart -->
+    </classes>
+  </test> <!-- testproj3(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
